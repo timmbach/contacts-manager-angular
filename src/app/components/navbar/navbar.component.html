@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-lg bg-primary-subtle fw-bold">
+  <div class="container">
+    <a routerLink="/home" class="navbar-brand">
+      <img
+        src="../../../assets/brand/Timothy_logo-removebg-preview.png"
+        alt="brand"
+      />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item mx-2">
+          <a class="nav-link active" aria-current="page" routerLink="/home"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-light" routerLink="/add-contact">
+            <i class="fa-solid fa-plus px-2"></i>Add Contact
+            <!-- <button class="btn btn-outline-secondary">
+            </button> -->
+          </a>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search Contact..."
+          aria-label="Search"
+        />
+        <button class="btn btn-secondary" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>

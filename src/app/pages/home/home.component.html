@@ -1,0 +1,23 @@
+<div class="home">
+  <div class="spinner" *ngIf="loading">
+    <app-spinner [loading]="loading"></app-spinner>
+  </div>
+  <div class="error-message" *ngIf="!loading && errorMessage">
+    <div class="container">
+      <h3>{{ errorMessage }}</h3>
+    </div>
+  </div>
+  <div class="container pt-5" *ngIf="!loading && contacts.length === 0">
+    <a class="nav-link btn btn-outline-light" routerLink="/add-contact">
+      <i class="fa-solid fa-plus px-2"></i>Add your first contact
+      <!-- <button class="btn btn-outline-secondary">
+      </button> -->
+    </a>
+  </div>
+  <div class="container" *ngIf="!loading && contacts.length > 0">
+    <app-contacts-list
+      [loading]="loading"
+      [contacts]="contacts"
+    ></app-contacts-list>
+  </div>
+</div>

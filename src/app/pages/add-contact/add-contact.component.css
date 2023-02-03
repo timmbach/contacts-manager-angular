@@ -1,0 +1,23 @@
+.add-contact {
+  background-color: #f0f9ff;
+}
+form > select {
+  width: max-content;
+  /* max-width: 200px; */
+}
+.title-div {
+  width: max-content;
+}
+.group-select {
+  width: max-content;
+}
+.group-select > small {
+  margin-bottom: 10px;
+}
+.form-div {
+  /* background-color: #f0f9ff; */
+  border-radius: 1%;
+  width: 75%;
+  max-width: 768px;
+  min-width: 400px;
+}
