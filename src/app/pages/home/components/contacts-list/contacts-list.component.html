@@ -35,22 +35,22 @@
               </ul>
             </div>
             <div
-              class="col-sm-1 d-flex flex-column justify-content-center align-items-center"
+              class="col-sm-1 d-flex flex-row flex-sm-column justify-content-center align-items-center"
             >
               <a
                 (click)="setActiveContact(contact.id)"
-                class="btn btn-success my-1"
+                class="btn btn-success m-2 m-sm-1"
                 data-bs-toggle="modal"
                 data-bs-target="#viewContactBackdrop"
                 ><i class="fa-solid fa-eye"></i
               ></a>
               <a
                 routerLink="/edit-contact/{{ contact.id }}"
-                class="btn btn-primary my-1"
+                class="btn btn-primary m-2 m-sm-1"
                 ><i class="fa-solid fa-pen-to-square"></i
               ></a>
               <button
-                class="btn btn-danger my-1"
+                class="btn btn-danger m-2 m-sm-1"
                 (click)="setActiveContact(contact.id)"
                 data-bs-toggle="modal"
                 data-bs-target="#confirmDeleteBackdrop"

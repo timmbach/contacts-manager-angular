@@ -1,5 +1,16 @@
 {
-  "contacts": [],
+  "contacts": [
+    {
+      "title": "Mr",
+      "name": "Timothy Mbachu",
+      "mobile": "08133992971",
+      "email": "follow.timothy@gmail.com",
+      "jobTitle": "Frontend Developer",
+      "company": "Tim's Bookstore",
+      "groupId": "Family",
+      "id": 1
+    }
+  ],
   "groups": [
     {
       "id": "1",
