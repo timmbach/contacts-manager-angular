@@ -1,6 +1,8 @@
 # ContactsManager
 
-App is hosted live at  https://contacts-manager-by-tim.netlify.app/
+App is hosted live at  https://contacts-manager-angular.netlify.app/
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
 
