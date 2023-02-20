@@ -8,14 +8,16 @@ import { ViewContactComponent } from './pages/view-contact/view-contact.componen
 
 const routes: Routes = [
   {
-    path: '',
-    redirectTo: '/home',
-    pathMatch: 'full',
-  },
-  {
     path: 'home',
     component: HomeComponent,
   },
+  {
+    path: '',
+    redirectTo: '/home',
+    pathMatch: 'full',
+    // component: HomeComponent,
+  },
+
   {
     path: 'add-contact',
     component: AddContactComponent,
