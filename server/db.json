@@ -1,16 +1,6 @@
 {
   "contacts": [
     {
-      "title": "Mr",
-      "name": "John Doe",
-      "mobile": "1234567890",
-      "email": "jondoe@gmail.com",
-      "jobTitle": "Frontend Developer",
-      "company": "Freelancer",
-      "groupId": "Colleague",
-      "id": 1
-    },
-    {
       "id": "D6BNdWnHI",
       "name": "Brad Gibson",
       "company": "YouTube",
@@ -44,15 +34,25 @@
       "groupId": "4"
     },
     {
-      "name": "Rajan",
-      "photo": "https://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/User-icon.png",
-      "mobile": "9090909090",
-      "email": "rajan@gmail.com",
-      "company": "HCL Technologies",
       "title": "Mr",
+      "name": "Timothy Mbachu",
+      "mobile": "08133992971",
+      "email": "follow.timothy@gmail.com",
       "jobTitle": "Frontend Developer",
-      "groupId": "1",
-      "id": "kLt-bJF"
+      "company": "Self",
+      "groupId": "Social",
+      "id": "hHzUjzs"
+    },
+    {
+      "title": "Mrs",
+      "name": "Timothy Mbachu",
+      "mobile": "08133992971",
+      "email": "follow.timothy@gmail.com",
+      "jobTitle": "Frontend Developer",
+      "company": "Me",
+      "groupId": "Community",
+      "photo": "https://picsum.photos/200",
+      "id": "dM7iaEc"
     }
   ],
   "groups": [

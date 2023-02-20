@@ -49,8 +49,8 @@ export class ContactsListComponent {
     this._contactService.deleteContact(contactId).subscribe(
       (data) => {
         this.getAllContacts();
-        // this._router.navigate(['/']).then();
-        location.reload();
+        this._router.navigate(['/']).then();
+        // location.reload();
       },
       (error) => {
         this.errorMessage = error;
