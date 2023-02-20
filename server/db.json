@@ -23,36 +23,14 @@
       "groupId": "2"
     },
     {
-      "id": "UyEDV5Yds",
-      "name": "Vladeen Min",
-      "company": "Service",
-      "email": "vladeen@gmail.com",
-      "title": "Mr",
-      "jobTitle": "Frontend Developer",
-      "mobile": "9876546787",
-      "photo": "https://png.pngtree.com/png-clipart/20190922/original/pngtree-business-male-user-avatar-vector-png-image_4774078.jpg",
-      "groupId": "4"
-    },
-    {
       "title": "Mr",
       "name": "Timothy Mbachu",
       "mobile": "08133992971",
       "email": "follow.timothy@gmail.com",
-      "jobTitle": "Frontend Developer",
-      "company": "Self",
-      "groupId": "Social",
-      "id": "hHzUjzs"
-    },
-    {
-      "title": "Mrs",
-      "name": "Timothy Mbachu",
-      "mobile": "08133992971",
-      "email": "follow.timothy@gmail.com",
-      "jobTitle": "Frontend Developer",
-      "company": "Me",
-      "groupId": "Community",
-      "photo": "https://picsum.photos/200",
-      "id": "dM7iaEc"
+      "jobTitle": "sddsds",
+      "company": "dsdsdsd",
+      "groupId": "Service",
+      "id": "gTeqOUA"
     }
   ],
   "groups": [
